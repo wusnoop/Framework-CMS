@@ -1,6 +1,6 @@
 <?php
 
-const DEBUG = 0; //1 режим разработки , 0 режим продакшн
+const DEBUG = 1; //1 режим разработки , 0 режим продакшн
 define("ROOT", dirname(__DIR__));
 const WWW = ROOT . '/public';
 const APP = ROOT . '/app';

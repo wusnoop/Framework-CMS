@@ -42,3 +42,11 @@
  =============
 [2022-08-16 18:29:39] Текст ошибки: Undefined array key "admin_prefix" | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 43
  =============
+[2022-08-16 19:05:26] Текст ошибки: Контроллер app\controllers\ProductController не найден | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 33
+ =============
+[2022-08-16 19:08:04] Текст ошибки: Контроллер app\controllers\ProductController не найден | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 37
+ =============
+[2022-08-16 19:08:50] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 37
+ =============
+[2022-08-16 19:09:43] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 34
+ =============
