@@ -38,3 +38,7 @@
  =============
 [2022-08-12 20:28:01] Текст ошибки: Ошибочка | Файл C:\OpenServer\domains\shop\public\index.php | Строка 10
  =============
+[2022-08-16 18:29:32] Текст ошибки: Undefined array key "admin_prefix" | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 43
+ =============
+[2022-08-16 18:29:39] Текст ошибки: Undefined array key "admin_prefix" | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 43
+ =============
