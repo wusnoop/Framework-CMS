@@ -22,11 +22,19 @@ class Router
     }
     public static function dispatch($url)
     {
+        $url = self::removeQueryString($url);
         if (self::matchRoute($url)){
 
             $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)){
+
+                /** @var Controller $controllerObject*/
+
+
                 $controllerObject = new $controller(self::$route);
+
+                $controllerObject->getModel();
+
                 $action = self::lowerCamelCase(self::$route['action'] . 'Action');
                 if (method_exists($controllerObject,$action)){
                     $controllerObject->$action();
@@ -75,5 +83,14 @@ class Router
     {
         return lcfirst(self::upperCamelCase($name));
 
+    }
+    protected static function removeQueryString($url)
+    {
+        if ($url) {
+            $params = explode('&', $url, 2);
+            if (false === str_contains($params['0'], '=')){
+                return rtrim($params['0'], '/');
+            }
+        } return '';
     }
 }

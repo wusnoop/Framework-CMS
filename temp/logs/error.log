@@ -50,3 +50,11 @@
  =============
 [2022-08-16 19:09:43] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 34
  =============
+[2022-08-16 19:38:25] Текст ошибки: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 49
+ =============
+[2022-08-16 19:38:32] Текст ошибки: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 49
+ =============
+[2022-08-16 19:38:51] Текст ошибки: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 49
+ =============
+[2022-08-17 19:30:21] Текст ошибки: Call to undefined method app\controllers\PageController::getModel() | Файл C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка 36
+ =============
