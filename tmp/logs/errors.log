@@ -74,3 +74,9 @@
 =================
 [2022-08-18 19:54:44] Текст ошибки: Не найден шаблон C:\OpenServer\domains\shop/app/views/layouts/ishop.php | Файл: C:\OpenServer\domains\shop\vendor\wfm\View.php | Строка: 44
 =================
+[2022-08-22 20:55:26] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка: 63
+=================
+[2022-08-23 19:33:24] Текст ошибки: Class "R" not found | Файл: C:\OpenServer\domains\shop\vendor\wfm\Db.php | Строка: 12
+=================
+[2022-08-23 19:33:25] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка: 63
+=================
