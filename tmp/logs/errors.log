@@ -102,3 +102,5 @@
 =================
 [2022-08-23 20:06:10] Текст ошибки: Undefined constant "id" | Файл: C:\OpenServer\domains\shop\app\views\Main\index.php | Строка: 6
 =================
+[2022-08-24 19:30:48] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\shop\vendor\wfm\Router.php | Строка: 63
+=================

@@ -16,6 +16,7 @@ class MainController extends Controller
     {
 
         $names = $this->model->getNames();
+        $one_name = R::getRow( 'SELECT * FROM name WHERE id = 2');
 
        $this->setMeta('Главная страница', 'Desc', 'keywords');
        $this->set(compact('names'));
